@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Аналіз успішності студентів</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="lists-container">
+      <!-- 6 груп -->
+      <div class="list-container" id="group1">
+        <h2>Група 1</h2>
+        <div class="mode-selection">
+          <label>
+            <input type="radio" name="mode-group1" value="array" checked>
+            Масив
+          </label>
+          <label>
+            <input type="radio" name="mode-group1" value="pointer">
+            Покажчик
+          </label>
+        </div>
+        <ul class="student-list"></ul>
+        <div class="controls">
+          <input type="text" placeholder="Ім'я студента" class="student-name">
+          <input type="number" placeholder="Середній бал" class="student-score" step="0.01">
+          <button class="add-btn">Додати студента</button>
+          <button class="remove-btn">Видалити студента</button>
+        </div>
+        <p class="group-average">Середній бал групи: <span>0</span></p>
+      </div>
+
+      <div class="list-container" id="group2">
+        <h2>Група 2</h2>
+        <div class="mode-selection">
+          <label>
+            <input type="radio" name="mode-group2" value="array" checked>
+            Масив
+          </label>
+          <label>
+            <input type="radio" name="mode-group2" value="pointer">
+            Покажчик
+          </label>
+        </div>
+        <ul class="student-list"></ul>
+        <div class="controls">
+          <input type="text" placeholder="Ім'я студента" class="student-name">
+          <input type="number" placeholder="Середній бал" class="student-score" step="0.01">
+          <button class="add-btn">Додати студента</button>
+          <button class="remove-btn">Видалити студента</button>
+        </div>
+        <p class="group-average">Середній бал групи: <span>0</span></p>
+      </div>
+
+      <div class="list-container" id="group3">
+        <h2>Група 3</h2>
+        <div class="mode-selection">
+          <label>
+            <input type="radio" name="mode-group3" value="array" checked>
+            Масив
+          </label>
+          <label>
+            <input type="radio" name="mode-group3" value="pointer">
+            Покажчик
+          </label>
+        </div>
+        <ul class="student-list"></ul>
+        <div class="controls">
+          <input type="text" placeholder="Ім'я студента" class="student-name">
+          <input type="number" placeholder="Середній бал" class="student-score" step="0.01">
+          <button class="add-btn">Додати студента</button>
+          <button class="remove-btn">Видалити студента</button>
+        </div>
+        <p class="group-average">Середній бал групи: <span>0</span></p>
+      </div>
+
+      <div class="list-container" id="group4">
+        <h2>Група 4</h2>
+        <div class="mode-selection">
+          <label>
+            <input type="radio" name="mode-group4" value="array" checked>
+            Масив
+          </label>
+          <label>
+            <input type="radio" name="mode-group4" value="pointer">
+            Покажчик
+          </label>
+        </div>
+        <ul class="student-list"></ul>
+        <div class="controls">
+          <input type="text" placeholder="Ім'я студента" class="student-name">
+          <input type="number" placeholder="Середній бал" class="student-score" step="0.01">
+          <button class="add-btn">Додати студента</button>
+          <button class="remove-btn">Видалити студента</button>
+        </div>
+        <p class="group-average">Середній бал групи: <span>0</span></p>
+      </div>
+
+      <div class="list-container" id="group5">
+        <h2>Група 5</h2>
+        <div class="mode-selection">
+          <label>
+            <input type="radio" name="mode-group5" value="array" checked>
+            Масив
+          </label>
+          <label>
+            <input type="radio" name="mode-group5" value="pointer">
+            Покажчик
+          </label>
+        </div>
+        <ul class="student-list"></ul>
+        <div class="controls">
+          <input type="text" placeholder="Ім'я студента" class="student-name">
+          <input type="number" placeholder="Середній бал" class="student-score" step="0.01">
+          <button class="add-btn">Додати студента</button>
+          <button class="remove-btn">Видалити студента</button>
+        </div>
+        <p class="group-average">Середній бал групи: <span>0</span></p>
+      </div>
+
+      <div class="list-container" id="group6">
+        <h2>Група 6</h2>
+        <div class="mode-selection">
+          <label>
+            <input type="radio" name="mode-group6" value="array" checked>
+            Масив
+          </label>
+          <label>
+            <input type="radio" name="mode-group6" value="pointer">
+            Покажчик
+          </label>
+        </div>
+        <ul class="student-list"></ul>
+        <div class="controls">
+          <input type="text" placeholder="Ім'я студента" class="student-name">
+          <input type="number" placeholder="Середній бал" class="student-score" step="0.01">
+          <button class="add-btn">Додати студента</button>
+          <button class="remove-btn">Видалити студента</button>
+        </div>
+        <p class="group-average">Середній бал групи: <span>0</span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Блок аналізу успішності груп -->
+  <div id="analysis-container">
+    <h2>Аналіз успішності груп</h2>
+    <button id="analyze-btn">Провести аналіз</button>
+    <div id="analysis-results"></div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
